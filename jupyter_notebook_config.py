@@ -369,7 +369,7 @@
 #  compression. A dict (even an empty one) will enable compression.
 #  
 #  See the tornado docs for WebSocketHandler.get_compression_options for details.
-#c.NotebookApp.websocket_compression_options = None
+c.NotebookApp.websocket_compression_options = {}
 
 ## The base URL for websockets, if it differs from the HTTP server (hint: it
 #  almost certainly doesn't).
