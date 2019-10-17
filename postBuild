@@ -1,2 +1,0 @@
-mv vpython vpy
-jupyter labextension install vpython
