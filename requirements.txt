@@ -1,3 +1,4 @@
 Cython
 vpython
 jupyterlab==1.1.4
+jupyter-server-proxy
