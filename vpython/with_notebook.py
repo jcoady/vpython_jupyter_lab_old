@@ -46,6 +46,7 @@ nbdata = nbdir+'vpython_data'
 nblib = nbdir+'vpython_libraries'
 transfer = True # need to transfer files from site-packages to nbextensions
 
+"""
 ### If JupyterLab is installed then copy vpython_data directory to static dir in Jupytarlab Application Directory
 try:
 	import jupyterlab
@@ -66,6 +67,8 @@ else:
         except PermissionError:
             #logging.info("PermissionError: Unable to install /vpython_data directory and files for VPython on JupyterLab")
             pass
+
+"""
 
 if 'nbextensions' in os.listdir(jd):
     ldir = os.listdir(nbdir)
