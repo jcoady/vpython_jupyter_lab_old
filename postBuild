@@ -1,1 +1,1 @@
-jupyter labextension install vptest
+jupyter labextension install vptest@0.2.2
