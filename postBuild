@@ -1,1 +1,1 @@
-jupyter labextension install vptest
+jupyter labextension install vpython@0.4.6
